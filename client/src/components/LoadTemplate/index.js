@@ -30,7 +30,7 @@ const templates = {
 	home: AsyncHome,
 	default: AsyncDefault,
 	post: AsyncPost
-}
+};
 
 const mapStateToProps = state => ({
 	data: state.content.data
